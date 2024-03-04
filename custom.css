@@ -1,0 +1,65 @@
+@charset "UTF-8";
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center
+}
+.img-fluid {
+  margin: auto;
+}
+h1 {
+  font-family: 'Staatliches', cursive;
+  color: #4d0d0d;
+}
+.bg-dark {
+  background-color: #8C1818 !important;
+}
+.nav-link {
+  font-family: 'Roboto Mono', monospace;
+  color: #ffe8e8 !important;
+}
+.nav-link:hover, .nav-link:focus {
+  color: #D98B8B !important;
+}
+.navbar-nav .show > .nav-link, .navbar-nav .active > .nav-link, .nav-link.show, .nav-link.active {
+  color: #987687 !important;
+}
+
+
+body {
+  background-color: #fff7f7;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer {
+  margin-top: auto;
+  height: 60px;
+  line-height: 60px;
+  background-color: #8C1818;
+}
+footer a:link {
+  color: #ffe8e8;
+}
+table.calendar {
+  background-color: #8C1818;
+  color: #ffe8e8;
+}
+table.calendar td {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h2 {
+  font-weight: 900;
+  color: #8C1818;
+  border: medium dashed #8C1818;
+}
+
+a:link, a:visited {
+    color: #b08c89;
+}
